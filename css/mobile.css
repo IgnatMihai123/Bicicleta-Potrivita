@@ -1,0 +1,119 @@
+/* Reset */
+* {
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+#navbar .logo{
+float: none;
+text-align:center;
+}
+
+#navbar ul, #navbar ul li{
+    float: none;
+}
+
+#navbar ul li a{
+    padding: 5px;
+    border-bottom: #444 dotted 1px;
+}
+
+/* bike info */
+#home-info .info-img{
+    display:none;
+}
+
+#home-info {
+    height: 450px;
+  }
+  
+
+#home-info .info-content {
+    float: none ;
+    width: 100%;
+
+  }
+
+  /* boxes */   
+
+  .box{
+    float:none;
+    width:100%;
+}
+
+/* Showcase */
+#showcase {
+    background: url('../img/pozabackground1.jpg') no-repeat center center/cover;
+    height: 100%; 
+  }
+
+  #testimonials .testimonial img {
+    width: 0px;
+    float: left ;
+    margin-bottom: 20px;
+    border-radius: 10%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .textintrails{
+    color: #f4f4f4;
+    /* src: url('../fonts/Elephant.ttf'); */
+    padding:2px;
+    width: 200px;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+  }
+
+  
+  .TRIALS{
+    background-color:#333;
+    text-align: justify;
+  }
+
+  .l-heading {
+    font-size: 30px;
+    text-align:center;
+
+}
+
+#injos{
+  text-align:center;
+}
+
+  .texttrails {
+    text-align: center;
+    color: #f7c08a;
+    width: 160px;
+    margin: fill;
+  }
+  #testimonials .testimonial {
+    padding: 70px;
+    margin-bottom: 50px;
+    border-radius: 100px;
+    opacity: 0.85;
+    overflow: auto;
+}
+
+  #testimonials h2 {
+    color: #fff;
+    text-align: auto;
+    padding-bottom: 30px;
+  }
+
+  #showcase .showcase-content {
+    color: #fff;
+    text-align: center;
+    padding-top: 120px;
+  }
+
+  #home-info {
+    height: 100%;
+  }
+
+  /* contact */
+
+  #contact-info .box{
+      border-bottom:#444 dotted 1px;
+  }
+

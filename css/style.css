@@ -1,0 +1,344 @@
+/* Reset */
+* {
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+  }
+  
+  html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video 
+{
+font-family: "Comic Sans MS", cursive, sans-serif;
+}
+ /* contact form */
+ 
+
+ 
+  /* Main Styling */
+  html,body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.7em;
+  }
+  
+  .TRIALS{
+    background-color:#333;
+  }
+  
+  a {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  h1, h2, h3 {
+    padding-bottom: 20px;
+  }
+  #intro{
+   color: #f4f4f4;
+   padding-bottom: 10px;
+  }
+  p {
+    margin: 10px 0;
+  }
+  
+  /* Utility Classes */
+  .container {
+    margin: auto;
+    max-width: 1600px;
+    overflow: auto;
+    padding: 20px 20px;
+  }
+  
+  .text-primary {
+    color: #f7c08a;
+  }
+  
+  .lead {
+    font-size: 20px;
+  }
+  
+  .btn {
+    display: inline-block;
+    font-size: 18px;
+    color: #fff;
+    background: #333;
+    padding: 13px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  
+  .btn:hover {
+    background: #f7c08a;
+    color: #333;
+  }
+  
+  .btn-light {
+    background: #f4f4f4;
+    color: #333;
+    border-radius: 5px;
+  }
+  
+  .bg-dark {
+    background: #333;
+    color: #fff;
+  }
+  
+  .bg-light {
+    background: #f4f4f4;
+    color: #333;
+  }
+  
+  .bg-primary {
+    background: #f7c08a;
+    color: #333;
+  }
+  
+  .clr {
+    clear: both;
+  }
+  
+  .l-heading {
+    font-size: 40px;
+    
+  }
+  
+  /* Padding */
+  .py-1 { padding: 10px 0; }
+  .py-2 { padding: 20px 0; }
+  .py-3 { padding: 30px 0; 
+    display: flex;
+    flex-wrap: wrap;}
+  
+  /* Navbar */
+  #navbar {
+    background: #333;
+    color: #fff;
+    overflow: auto;
+    top:0;
+  }
+  
+  #navbar a {
+    color: #fff;
+  }
+  
+  #navbar .logo {
+    float: left;
+    padding-top: 20px;
+  }
+  
+  #navbar ul {
+    list-style: none;
+    float: right;
+  }
+  
+  #navbar ul li {
+    float: left;
+  }
+  
+  #navbar ul li a {
+    display: block;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  #navbar ul li a:hover, 
+  #navbar ul li a.current {
+    background: #444;
+    color: #f7c08a;
+  }
+
+ #whistler{
+  color: #f7c08a;
+ }
+
+  /* Showcase */
+  #showcase {
+    background: url('../img/pozabackground1.jpg');
+    background-repeat: no-repeat;
+    background-position: center top ;
+    background-size: cover;
+    height: 900px;
+   
+  }
+  
+  #showcase .showcase-content {
+    color: #fff;
+    text-align: center;
+    padding-top: 300px;
+  }
+  
+  #showcase .showcase-content h1 {
+    font-size: 100px;
+    line-height: 1.2em;
+  }
+  
+  #showcase .showcase-content p {
+    padding-bottom: 20px;
+    line-height: 1.7em;
+  }
+  
+  /* Home Info */
+  #home-info {
+    height: 600px;
+  }
+  
+  #home-info .info-img {
+    float: left;
+    width: 60%;
+    background: url('../img/pozatrailuri1.jpg') no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 600px;
+    min-height: 100%;
+  }
+  
+  #home-info .info-content {
+    float: right ;
+    width: 40%;
+    height: 600px;
+    text-align: center;
+    padding: 100px ;
+    overflow: hidden;
+  }
+  
+  #home-info .info-content p {
+    padding-bottom: 100px;
+  }
+  
+  /* Features */
+  .box {
+    float: left;
+    width: 33.3%;
+    padding: 50px;
+    text-align:center;
+  }
+  
+  .box i {
+    margin-bottom: 10px;
+  }
+  
+  /* About Info */
+  #about-info .info-right {
+    float: right;
+    width: 50%;
+    min-height: 100%;
+  }
+  
+  #about-info .info-right img {
+    display: inline-block;
+    margin: 20px 30px 20px 30px;
+    width: 90%;
+    border-radius: 5%;
+  }
+  
+  #about-info .info-left {
+    float: left;
+    width: 50%;
+    min-height: 100%;
+  }
+  
+  .texttrails{
+      text-align: center;
+      color: #f7c08a;
+      width: auto;
+  }
+
+  .textintrails{
+    color: #f4f4f4;
+    /* src: url('../fonts/Elephant.ttf'); */
+  
+    font-family: "Comic Sans MS", cursive, sans-serif;
+  }
+/* ZOOM POZA */
+
+  .zoomD {
+    width: 600px;
+    height: auto;
+    cursor: pointer;
+  }
+  #lb-back {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 999;
+    visibility: hidden;
+    opacity: 0;
+    transition: all 1s;
+  }
+  #lb-back.show {
+    visibility: visible;
+    opacity: 1;
+  }
+  #lb-img {
+    text-align: center;
+  }
+  
+  /* Testimonials */
+  #testimonials {
+    height: 100%;
+    background: url('../img/padurea.jpg') no-repeat center center/cover;
+    padding-top: 20px;
+  }
+
+  #bikes{
+    color:#333;
+    text-align: center;
+  }
+  #bikes-p{
+    color:#333;
+    text-align: center;
+    font-size: 20px;
+  }
+
+  #informatii{
+    background: #f7c08a;
+  }
+
+  #testimonials h2 {
+    color: #fff;
+    text-align: center;
+    padding-bottom: 30px;
+  }
+  
+  #testimonials .testimonial {
+    padding: 100px;
+    margin-bottom: 50px;
+    border-radius: 100px;
+    opacity: 0.85;
+    overflow: auto;
+  }
+  
+  #testimonials .testimonial img {
+    width: 400px;
+    float: left ;
+    margin-right: 50px;
+    border-radius: 10%;
+    display: flex;
+    flex-wrap: wrap;
+    
+  }
+  #buton{
+    cursor: pointer;
+    margin: 4px 2px;
+    border-radius: 2px;
+    border: none;
+    width: 50px;
+  }
+
+  #buton1{
+    cursor: pointer;
+    margin: 4px 2px;
+    border-radius: 2px;
+    border: none;
+    width: 60px;
+  }
+
+  /* Footer */
+  #main-footer {
+    text-align: center;
+    background: #444;
+    color: #fff;
+    padding: 20px;
+  }
